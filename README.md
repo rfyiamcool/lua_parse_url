@@ -6,5 +6,6 @@
 local utils  = require "utils"
 local url = "http://baidu.com/query?word=bens"
 
-utils.get_domain_url(url)
+local domain, uri = utils.get_domain_url(url)
+ngx.say(domain..uri)
 ```
