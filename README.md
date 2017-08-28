@@ -1,6 +1,6 @@
 # lua_parse_url
 
-在openresty里没找到如何解析分拆url，就尝试自己写了个小东西.
+在openresty里没找到解析分拆url的方法，就尝试自己写了个获取域名及uri的方法.
 
 ```
 local utils  = require "utils"
